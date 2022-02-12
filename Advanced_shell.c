@@ -2,12 +2,10 @@
 // run in terminal "chmod +x Advanced_shell.sh" then "./Advanced_shell.sh"
 #include <stdio.h>
 #include <stdlib.h>
-#include <errno.h>
 #include <fcntl.h>
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
-#include <sys/stat.h>
 
 #define TOK_BUFSIZE 256
 #define txt_str ".txt"

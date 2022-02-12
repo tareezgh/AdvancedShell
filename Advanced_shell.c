@@ -1,3 +1,5 @@
+// Created by Tareez Ghandour
+// run in terminal "chmod +x Advanced_shell.sh" then "./Advanced_shell.sh"
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -54,7 +56,7 @@ int main(int argc, char *argv[])
 
 int prog(char **args)
 {
-  char path[256] = {"/home/braude/"};
+  char path[256] = {"/home/braude/"};  // Change the path
   pid_t pid;
   int flag = 0;
 
@@ -200,6 +202,7 @@ int cmd_launch(char **args)
 void display_prompt() // Done
 {
   printf("AdvShell> ");
+  printf("\n1) CreateExam  2) StartExam  3) SolExam  4) CheckExam  5) CalcGrade  6) GoodBye\n ");
 }
 
 //function for cd , help ,exit
